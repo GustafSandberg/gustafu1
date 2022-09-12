@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
- width: 700px;
+ width: 800px;
  margin: auto;
  background-image: linear-gradient(rgb(145, 92, 230), rgb(211, 156, 206));
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,17 +12,26 @@ header{
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: larger;
-    
-}
+    font-style: italic;
+  }
+  header p{
+    background:url(../question.jpg) ;
+  }
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4rem;
     padding-bottom: 40px;
     padding-top: 40px;
-    background: url(../internet.jpg) ;
+    background: url(../internet.gif) ;
+    background-position: bottom;
+
+}
+h2 {
+    background: url(../question.jpg);
 }
 dt{font-size: larger;
-font-weight: bold;}
+font-weight: bold;
+background-color: rgba(216, 81, 198, 0.712);}
+dl {background-color: rgba(226, 43, 195, 0.233);}
 
 nav li {display: inline;
     padding: 10px;
@@ -31,13 +40,23 @@ nav li {display: inline;
 }
 nav {padding-top: 20px;
     padding-bottom: 20px;
+    background-image: linear-gradient(rgb(145, 92, 230), rgb(211, 156, 206));
 }
 dd {padding: 15px;
 }
 ul {list-style: none;
 }
 .column {
-    float: center;
     width: 50%;
     padding: 5px;
+}
+hr {
+  color: rgb(2, 0, 0);
+font-weight: bold;
+}
+ul div {
+    font-weight: bold;
+}
+img {
+    padding-bottom: 15px;
 }
