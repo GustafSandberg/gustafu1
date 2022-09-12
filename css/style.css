@@ -8,7 +8,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 img{
     max-width: 100%;
 }
-#cssregel {display: block;
+#cssregel {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -28,12 +29,12 @@ h1 {
     padding-top: 40px;
     background: url(../internet.gif) ;
     background-position: bottom;
-
 }
 h2 {
     background: url(../question.jpg);
 }
-dt{font-size: larger;
+dt {
+    font-size: larger;
 font-weight: bold;
 background-color: rgba(216, 81, 198, 0.712);}
 dl {background-color: rgba(226, 43, 195, 0.233);}
@@ -45,17 +46,20 @@ nav li {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(216, 81, 198, 0.712)
    }
-   nav li:hover 
-   {background-color: rgb(247, 20, 209);}
+   nav li:hover {
+    background-color: rgb(247, 20, 209);
+}
 
 nav { 
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: linear-gradient(rgb(145, 92, 230), rgb(211, 156, 206));
 }
-dd {padding: 15px;
+dd {
+    padding: 15px;
 }
-ul {list-style: none;
+ul {
+    list-style: none;
 }
 .column {
     width: 50%;
@@ -72,4 +76,5 @@ img {
     padding-bottom: 15px;
 }
 .fetstil {
-    font-weight: bold}
+    font-weight: bold
+}
